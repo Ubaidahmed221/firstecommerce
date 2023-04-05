@@ -39,7 +39,6 @@
        <td>{{ $product['price'] }}</td>
        <td>{{ $product['quantity'] }}</td>
        <td>{{ $prices }}</td>
-       <td><a href="{{ url('/removecart') }}/{{ $item }}" class="btn btn-danger">Remove</a></td>
       </tr>
       @endforeach 
       
